@@ -8,9 +8,7 @@
     /** @ngInject */
     function MainController($timeout, webDevTec, toastr) {
       var vm = this;
-      vm.equalPartsMarkup = < div id = 'text' > < p > < em > Equal Parts < /em> at The Packing Plant, Nashville, TN, October 2015</p > < p > "For<em> Equal Parts </em>Virginia Griswold continues her exploration of multiples, pulling ideas from two different bodies of work to create new groupings. This work culminates in a sculptural tableau vivant composed of specimens, fragments, and forms from her studio. Bringing together sculpture, casting, and photography Virginia finds connections between her personal practice and the metaphorical act of ‘match-making’, constructing relationships between process and product that disrupt a dichotomous understanding of form. At once fleshy and plastic, floral and mineral, Griswold’s objects distort polarized perceptions like natural/unnatural and finished/unfinished, exposing the falsity of simple binaries." < /p><p>- Zack Rafuls and Ann Catherine Carter, curators and co-directors - <a href="http:/ / thepackingplant.net / ">The Packing Plant</a></p><p><a href="
-      http: //badatsports.com/2015/from-the-road-transformer-2/">READ A REVIEW OF <em>Equal Parts</em> BY ERIC ASBOE FOR <em>BAD AT SPORTS</em></a><br /></p></div>
-
+      vm.equalPartsMarkup = "<div id='text'><p><em>Equal Parts</em> at The Packing Plant, Nashville, TN, October 2015</p><p>'For<em> Equal Parts </em>Virginia Griswold continues her exploration of multiples, pulling ideas from two different bodies of work to create new groupings. This work culminates in a sculptural tableau vivant composed of specimens, fragments, and forms from her studio. Bringing together sculpture, casting, and photography Virginia finds connections between her personal practice and the metaphorical act of ‘match-making’, constructing relationships between process and product that disrupt a dichotomous understanding of form. At once fleshy and plastic, floral and mineral, Griswold’s objects distort polarized perceptions like natural/unnatural and finished/unfinished, exposing the falsity of simple binaries.' </p><p>- Zack Rafuls and Ann Catherine Carter, curators and co-directors - <a href='http://thepackingplant.net/'>The Packing Plant</a></p><p><a href='http://badatsports.com/2015/from-the-road-transformer-2/'>READ A REVIEW OF <em>Equal Parts</em> BY ERIC ASBOE FOR <em>BAD AT SPORTS</em></a><br /></p></div>";
         vm.projects = [{
             name: 'equal parts',
             year: '2015',
@@ -21,8 +19,7 @@
           {
             name: 'osage',
             year: '2015',
-            desc: '
-            Completed while in residence at The Hambidge Center for the Creative Arts and Sciences, Rabun Gap, GA, July / August 2015 ',
+            desc: 'Completed while in residence at The Hambidge Center for the Creative Arts and Sciences, Rabun Gap, GA, July / August 2015 ',
             materials:'cast resin, porcelain, hydrocal, wood',
             img:['os-1.jpg' , 'os-2.jpg' , 'os-3.jpg' , 'os-4.jpg' , 'os-5.jpg' , 'os-6.jpg' , 'os-7.jpg']
             },
