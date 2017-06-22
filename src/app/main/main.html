@@ -1,8 +1,29 @@
-
-
+<div class="main-container">
+  <div class="main-container-inner">
 
     <header>
-      <h1>Virginia Griswold</h1>
+      <div class="header-container">
+        <h1>Virginia Griswold</h1>
+      </div>
     </header>
 
+
+
+    <div id="masondry">
+
+      <div ng-repeat="item in ctrl.projects">
     
+
+        <a ng-repeat="img in item.img" href='#'>
+          <img src="./assets/img/{{img}}" alt="">
+        </a>
+
+        <!-- TODO ROUTE Based on NAME -->
+
+      </div>
+
+
+
+
+    </div>
+  </div>
