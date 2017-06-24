@@ -12,10 +12,14 @@
     <div id="masondry">
 
       <div ng-repeat="item in ctrl.projects">
-    
 
-        <a ng-repeat="img in item.img" href='#'>
-          <img src="./assets/img/{{img}}" alt="">
+
+        <a ng-mouseenter="tileHover=true" ng-mouseleave="tileHover=false"  style="background:blue;" ng-repeat="img in item.img" href='#'>
+          <img  src="./assets/img/{{img}}" alt="">
+          <div ng-if="tileHover" class="hover-tip">
+zxc
+          </div>
+
         </a>
 
         <!-- TODO ROUTE Based on NAME -->

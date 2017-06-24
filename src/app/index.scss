@@ -73,15 +73,21 @@ header {
 }
 
 div#masondry {
-  // width: 60rem;
+  width: 60rem;
   margin: auto;
   column-count: 5;
   column-gap: 5px;
+
+  a {
+    position: relative;
+    overflow: hidden;
+  }
 
   img {
     // background-color: red;
     display: inline-block;
     margin-top: 0;
+    background: red;
     // padding: 0;
     width: 100%;
   }
