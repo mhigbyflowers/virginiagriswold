@@ -16,86 +16,86 @@
       })
       .state('equal parts', {
         url: '/equal-parts',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
       .state('osage', {
         url: '/osage',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
       .state('ripe/raw', {
         url: '/ripe-raw',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
       .state('mirror object', {
         url: '/mirror-object',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
       .state('near earth objects', {
         url: '/near-earth-objects',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
       .state('levarche', {
         url: '/levarche',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
-      .state('table (two)', {
+      .state('blue', {
         url: '/table-two',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
-      .state('table (one)', {
+      .state('red)', {
         url: '/table-one',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
       .state('outside', {
         url: '/outside',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
       .state('float pile', {
         url: '/float-pile',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
       .state('primary ornament', {
         url: '/primary-ornament',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
       .state('alienum', {
         url: '/alienum',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
       .state('through an eye', {
         url: '/through-an-eye',
-        templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        templateUrl: 'app/project/project.html',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       })
       .state('objects', {
         url: '/objects',
         templateUrl: 'app/main/main.html',
-        controller: 'MainController',
+        controller: 'ProjectController',
         controllerAs: 'ctrl'
       });
 

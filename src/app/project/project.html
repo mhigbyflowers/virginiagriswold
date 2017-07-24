@@ -1,0 +1,11 @@
+
+<div ng-if="item.name == ctrl.stateName" ng-repeat="item in ctrl.projects" >
+
+<div class="gallery-container">
+<div class="gallery-container-inner">
+<img ng-repeat="img in item.img"src="./assets/img/{{img}}">
+
+</div></div>
+<h1 class="project-name">{{ctrl.stateName}}</h1>
+<p class="project-desc">{{item.desc}}</p>
+</div>

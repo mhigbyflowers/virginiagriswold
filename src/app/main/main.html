@@ -1,9 +1,23 @@
 <div class="main-container">
   <div class="main-container-inner">
 
-    <header>
+    <header  >
       <div class="header-container">
-        <h1>Virginia Griswold</h1>
+        <ul class="project-list" ng-class= "{'moveup':menuToggle == false, 'movedown':menuToggle == true}" >
+        <li  class="project-list-item" ng-repeat="item in ctrl.projects"><span>{{item.name}}</span></li>
+        </ul>
+        <ul class="nav">
+          <a class="nav-item"ui-sref="home"><li class="name">Virginia Griswold</li></a>
+
+          <li ng-click="menuToggle = !menuToggle" class="nav-item dropdown"> projects</li>
+
+          <li class="nav-item">bio</li>
+
+          <li class="nav-item">cv</li>
+
+
+        </ul>
+
       </div>
     </header>
 
@@ -14,11 +28,9 @@
       <div ng-repeat="item in ctrl.projects">
 
 
-        <a ng-mouseenter="tileHover=true" ng-mouseleave="tileHover=false"  style="background:blue;" ng-repeat="img in item.img" href='#'>
-          <img  src="./assets/img/{{img}}" alt="">
-          <div ng-if="tileHover" class="hover-tip">
-zxc
-          </div>
+        <a  ui-sref="{{item.name}}"   ng-repeat="img in item.img" href='#'>
+          <img class="brick" src="./assets/img/{{img}}" alt="">
+
 
         </a>
 
